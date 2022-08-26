@@ -22,3 +22,7 @@ body{
     line-height: 3;
     text-align: center;
 }
+canvas{
+    border-radius: 50;
+    border: 5px, rgb(41, 40, 40), ridge;
+}

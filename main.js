@@ -45,6 +45,7 @@ function gotResults(error, results){
     document.getElementById("number_of_objects").innerHTML= "Number of objects detected : " + objects.length;
 
     fill("#FF0000");
+    strokeWeight(1);
     percent= floor(objects[i].confidence*100);
     text(objects[i].label + " " + percent + "%", objects[i].x + 15 , objects[i].y + 15);
     noFill();
